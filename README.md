@@ -24,6 +24,11 @@ A pipeline está **incompleta**. Os steps de segurança precisam ser implementad
 ## Como a pipeline funciona
 > **Substitua este bloco pela sua explicação após implementar a pipeline.**
 > Descreva cada step, o que ele faz e por que ele é importante para a segurança.
+PASSO 3: Gitleaks (Secrets Scanning): identifica e previne a exposição de credenciais e chaves secretas no código-fonte.
+
+PASSO 4: Semgrep (SAST): Analisa o código estático em busca de vulnerabilidades de segurança como o uso indevido de eval e falhas de XSS.
+
+PASSO 5: Grype (SCA): Analisa as dependências do projeto no package.json para encontrar vulnerabilidades conhecidas em bibliotecas de terceiros.
 
 ## URL de Produção
-> Adicione aqui o link do GitHub Pages após o deploy.
+> https://sandrinha-sousa.github.io/projeto-devsecop-desafio/
